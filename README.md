@@ -2,11 +2,14 @@
 The project involved building a capstone system that performs object detection on an image or sequence of frames from a video/live camera by using the You Only Look Once `YOLO V3` Deep Neural Network.
 
 *I was lucky enough to be responsible for building this project during my military service period, The system was tested and deployed on real live sites like highway roads, morning crowded people and road bridges.*
- 
+
+![intro](./screenshots/guiTkinter_1.png)
+
+
 - User can customize the classes that only need to detect from the feed.
 - System returns a frame/live videos with the pre-customized objects. `Live Detection`
 - System returns how many detected objects that existing in image. `Live Counting`  
-- On real time, system provide a gui that gives the user ability of control the detection process on specific class. User can turn ON/OFF live detection on class [ex. persons]. `Live Control`
+- On real time, system provide a gui that gives the user ability of control the detection process on specific class. User can turn ON/OFF live detection on class [ex. persons]. `Live Detection Control`
 - `Alarm system`, User can configure a maximum number for each class that would be in the live feed. 
     1. More than that number, system will fire an audio alarm for the supervisor to alert that there is break-out at your covered area.
     2. User can control the alarm system by configuring it's safe for exceeding the number of detection. `Safe Button`
@@ -14,8 +17,6 @@ The project involved building a capstone system that performs object detection o
     4. User can change the alarm thresh number for each class. `Thresh control` 
     5. User can take a snapshot of live detection frame. `Snapshot`
 - **`Arabic` is the main language of detection process and GUI control.**
-
-[image 1.1]
 
 ### Requirements:
     Python 3.6 or higher
@@ -39,5 +40,11 @@ The project involved building a capstone system that performs object detection o
 > Execute the gui_tkinter_place.py file
 
 ### Screenshots
-[image 1]
-[]
+##### System Overview
+![Live Detection Control](./screenshots/1.png)
+##### Detection controllable GUI
+![Live counting](./screenshots/2.png)
+![Live counting_2](./screenshots/3.png)
+##### Configure thersh number for alarm system
+![Alarm system](./screenshots/4.png)
+
